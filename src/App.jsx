@@ -1,4 +1,5 @@
 import { useState } from "react";
+import P5Component from "./components/P5Component.jsx";
 import "./App.css";
 
 function App() {
@@ -6,7 +7,9 @@ function App() {
 
   return (
     <>
-      <div>div</div>
+      <div>
+        <P5Component />
+      </div>
     </>
   );
 }
